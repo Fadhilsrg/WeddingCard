@@ -9,6 +9,8 @@ var background = document.querySelector(".container-background-cover img");
 var audio = new Audio("Audio/NyaliTerakhir.m4a");
 var animationInterval;
 
+animationInterval = setInterval(changeBg, 5000);
+
 document.addEventListener("DOMContentLoaded", function () {
   function hideOverlay(event) {
     if (event.target.id === "overlay") {
@@ -17,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
         overlay.style.display = "none";
         showVideoSection();
       }, 2500);
-      animationInterval = setInterval(changeBg, 5000);
     }
   }
 
