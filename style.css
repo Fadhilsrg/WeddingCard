@@ -105,7 +105,8 @@ p {
 
 /* cover */
 .container-home {
-  height: 100vh;
+  position: fixed;
+  height: 100%;
 }
 
 .container-background-cover {
