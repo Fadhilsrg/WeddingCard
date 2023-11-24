@@ -115,9 +115,17 @@ p {
 }
 
 /* cover */
+
 .container-home {
-  padding-top: 0;
+  position: fixed;
+  width: 100%;
   height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #fff;
+  background-color: #000;
   z-index: 100;
 }
 
@@ -151,19 +159,6 @@ p {
   100% {
     opacity: 0;
   }
-}
-
-.container-home {
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-around;
-  color: #fff;
-  background-color: #000;
-  z-index: 500;
 }
 
 .container-home p {
