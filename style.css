@@ -116,7 +116,8 @@ p {
 
 /* cover */
 .container-home {
-  height: 100%;
+  padding-top: 0;
+  height: 80%;
   z-index: 100;
 }
 
